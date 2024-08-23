@@ -7,6 +7,8 @@ The training loss for the discriminator is a BCE between the real and predicted 
 
 The process was additionally optimized with a gradient penalty on the discriminator and label smoothing in order to obtain better results. 
 
+I also have a script that outputs generated images from text using StableDiffusion in this, which can be run by "python3 test.py" after going into that folder
+
 # Rendering images with my weights
 
 First, download all the files. 
